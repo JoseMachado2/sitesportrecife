@@ -1,0 +1,71 @@
+@keyframes a {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: black;
+    }
+
+}
+
+body {
+    animation: a 1s infinite alternate;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div {
+    color: black;
+    font-size: 24px;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+}
+
+h3 {
+    color: yellow;
+}
+
+input {
+    color: black;
+}
+
+div {
+    background-color: yellow;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+#ing {
+
+
+    margin-right: 100%;
+     color: yellow;
+     font-size: 50px;
+
+}
+
+footer {
+text-align: center;
+    background-color: black;
+}
+
+#resul {
+
+    background-color: yellow;
+margin-right: 90%;}
