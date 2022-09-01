@@ -4,12 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicoon.ico" type="image/x-icon">
+
     <title>Vire Sócio</title>
-    <link rel="stylesheet" href="socio.css">
+    
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://i0.wp.com/sportrecife.com.br/wp-content/uploads/2020/02/BANNER_SITE.gif?fit=1920%2C950&ssl=1);
+        background-repeat: repeat;
+        background-size: cover
+    }
+
+    #inicio {
+      background-color: black;
+      margin-right: 91%;
+      color: yellow;
+      margin-top: 2%;
+      font-size: 37px;
+      text-align: center;
+    }
+    
+        #login{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            box-shadow:blueviolet;
+            color: #fff;
+        }
+
+
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: red;   
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: yellow;
+            font-size: 15px;
+            
+        }
+        button:hover{
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        #nomezin {
+            background-color: yellow;
+        }
+
+        #senhaz {
+            background-color: yellow;
+        }
+h1 {
+    color: red;
+}
+
+    </style>
 </head>
 <body>
-  <div >
-NOME:
-  </div>  
+  <div id="inicio"><a href="index.html" style="color: yellow;">INÍCIO</a></div>
+    <div id="login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome" id="nomezin">
+        <br><br>
+        <input type="password" placeholder="Senha" id="senhaz">
+        <br><br>
+        <h4 > <underline> <a href="virarsocio.html" style="color: yellow;"> Nao é sócio? Crie uma conta </a>   
+        </underline> </h3>
+        <button>Enviar</button>
+    </div>
 </body>
 </html>
