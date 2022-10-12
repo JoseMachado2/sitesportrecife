@@ -2,6 +2,8 @@ body {
 
     background-image: url(https://images.squarespace-cdn.com/content/v1/582e76425016e1e2d5d3adff/1537827918819-3W1NQ7O95VJRCX6X2KNT/BelAndradeLima-UnderArmour-Sport.gif?format=1500w);
     background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -11,14 +13,63 @@ body {
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    padding: 80px;
+    padding: 50px;
    
-    color: #fff;
-    
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 input {
     display: flex;
-    width: 599px;
+    width: 320px;
     margin-bottom:33px;
+    background-color: yellow;
+    padding: 13px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+  
+}
+
+#selec {
+    display: flex;
+    width: 352px;
+    margin-bottom:33px;
+    background-color: yellow;
+    padding: 13px;
+    border-radius: 8px;
+
+}
+
+button {
+    text-align: center;
+    padding: 15px;
+    margin-left: 133px;
+background-color: red;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: yellow;
+}
+
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#inicio {
+    background-color: black;
+    margin-right: 91%;
+    color: yellow;
+    margin-top: 2%;
+    font-size: 37px;
+    text-align: center;
+  }

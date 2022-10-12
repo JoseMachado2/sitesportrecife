@@ -7,16 +7,17 @@ function calcular() {
 
 
     if (nacio == 'SPORT') {
-        res.innerText = `Olá ${nick}, tu é torcedor do maior do nordeste!`
+        res.innerText = `Olá ${nick}, você é torcedor do maior do nordeste!`
         res.style.backgroundColor = 'red'
 
     }
 
     else {
         if (nacio == 'NAUTICO') {
-            res.innerText = `Porraa, ${nick}... tu é uma torcedora do ${nacio}, sua Barbie safada!! `
+            res.innerText = `Poxa, ${nick}... torcer pro ${nacio}?, você gosta de sofrer `
             res.style.backgroundColor = 'pink'
-            
+            res.style.marginRight = "50%"
+
 
         }
 
@@ -26,12 +27,13 @@ function calcular() {
         {
 
             res.innerText = ' SERIE D!!!!!!!!!!!! '
+            res.style.marginRight = "80%"
         }
 
         else 
         if (nacio=='RETRO')
         { 
-            res.innerText = ' UNIBRA é o caralho, aqui é NASSAU'
+            res.innerText = ' UNIBRA? aqui é NASSAU'
 
         } else {
             res.innerHTML ='Você é um misto, vergonha do nordeste'

@@ -1,13 +1,4 @@
-@keyframes a {
-    from {
-        background-color: red;
-    }
 
-    to {
-        background-color: black;
-    }
-
-}
 
 body {
     animation: a 5s infinite alternate;

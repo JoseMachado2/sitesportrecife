@@ -1,16 +1,9 @@
-@keyframes a {
-    from {
-        background-color: red;
-    }
 
-    to {
-        background-color: black;
-    }
 
-}
+
 
 body {
-    animation: a 1s infinite alternate;
+    background-image: linear-gradient(red, black);
     color: yellow;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -66,6 +59,7 @@ text-align: center;
 }
 
 #resul {
+background-color: yellow;
+   margin-right: 90%;
 
-    background-color: yellow;
-margin-right: 90%;}
+}
